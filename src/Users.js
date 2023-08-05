@@ -8,38 +8,38 @@ function User() {
     const users = [
         {
             id: 1,
-            name: "Sabari",
-            position: "Devoloper",
+            name: "Maheswaran",
+            position: "FS Devoloper",
             office: "success",
             age: "26",
-            startdate: "21/08/1996",
+            startdate: "21/08/2001",
             salary: "50,000"
         },
         {
             id: 2,
-            name: "Santhosh",
+            name: "Yazhan",
             position: "Team guide",
             office: "success",
             age: "26",
-            startdate: "15/10/1996",
-            salary: "50,000"
+            startdate: "15/10/2002",
+            salary: "40,000"
         },
         {
             id: 3,
-            name: "bala ",
+            name: "Mahizhan ",
             position: "Team officer",
             office: "success",
             age: "26",
-            startdate: "1/01/1996",
-            salary: "50,000"
+            startdate: "1/01/1999",
+            salary: "45,000"
         },
         {
             id: 4,
-            name: "karthi",
+            name: "Mahizhini",
             position: "Head",
             office: "success",
             age: "26",
-            startdate: "10/08/1997",
+            startdate: "10/08/2004",
             salary: "50,000"
         }
     ]
@@ -77,7 +77,7 @@ function User() {
 
 
                                 {users.map((user, index) => {
-                                    
+
                                     return <tr key={index}>
                                         <td>{index + 1}</td>
                                         <td>{user.name}</td>
